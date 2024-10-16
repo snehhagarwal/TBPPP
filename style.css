@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+}
+.navbar ol{
+    list-style: none;
+    display: flex;
+}
+.navbar ol li{
+    padding: 5px;
+}
+.navbar ol li:hover{
+    background-color: lightgray;
+}
+.img{
+    position: relative;
+    height: 600px;
+    background-image: url('https://mapmygenome.in/cdn/shop/articles/How_to_Stay_Healthy_While_Traveling_-_Tips_and_Insights_for_a_Safe_Journey.webp?v=1718688910');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.img h1{
+    background-color: black;
+    color: white;
+}
+.sec-2{
+    margin:70px;
+    text-align: center;
+    color: grey;
+}
+.sec-2 p{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: left;
+}
+.sec-2 h2,p{
+    padding: 10px;
+}
+.sec-3{
+    margin: 100px;
+    text-align: center;
+    display: flex;
+    color: grey;
+}
+.sec-3 img{
+    margin-left: 50px;
+}
+.sec-3 img:hover{
+      opacity: 0.7;
+}
+.sec-3 p{
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.sec-4{
+    text-align: center;
+    color: grey;
+}
+.skills{
+    box-sizing: border-box;
+    text-align: center;
+    color: grey;
+}
+.outer{
+    width: 100%;
+    color: grey;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.inner {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.photo{
+    background-color: grey;
+    width:90%;
+}
+.design{
+    background-color: grey;
+    width: 80%;
+}
+.shop{
+    background-color: grey;
+    width: 70%;
+}
+.sec-5{
+    background-color: grey;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+}
+.sec-5 ol{
+    margin-left: 100px;
+    display: flex;
+    gap: 290px;
+    padding: 20px;
+    color: white;
+}
+.sec-5 ol li{
+    list-style: none;
+    /*padding: 10px;*/
+    color: white;
+}
